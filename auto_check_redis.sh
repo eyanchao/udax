@@ -15,3 +15,8 @@ if [ "$status_redis" == 'PONG' ];then
 else
         echo 'The redis is running!'
 fi
+
+
+
+
+
