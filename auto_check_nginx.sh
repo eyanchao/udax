@@ -1,4 +1,6 @@
 
+
+
 #!/bin/bash
 #filename: auto_check_nginx.sh(for monitor nginx)
 #date: 2018/05/09
@@ -18,3 +20,7 @@ WebPort=`netstat -nlt |grep 80|awk '{print $4}'| cut -d : -f 2`
                exit 1
 
         fi
+
+
+
+
